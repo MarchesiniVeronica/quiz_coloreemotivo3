@@ -8,19 +8,19 @@ const questions = [
     {
         text: "1. Come ti senti prevalentemente durante la tua giornata?",
         options: [
-            { value: "A", text: "Tranquillo/a, in pace con ciò che mi circonda" },
-            { value: "B", text: "Pieno/a di energie, ottimista, determinato/a, con una gran voglia di fare" },
-            { value: "C", text: "Sensibile, empatico/a, sento molto ogni variazione emotiva mia e altrui" },
+            { value: "A", text: "Tranquillo/a, in pace" },
+            { value: "B", text: "Pieno/a di energie, ottimista" },
+            { value: "C", text: "Sensibile, empatico/a" },
             { value: "D", text: "Un po’ ansioso/a, con molti pensieri" },
         ],
     },
     {
         text: "2. Cosa fai quando vuoi rilassarti?",
         options: [
-            { value: "A", text: "Leggo, medito, attività riflessive" },
-            { value: "B", text: "Esco con gli amici, faccio sport, tenermi attivo/a mi dà una nuova carica" },
-            { value: "C", text: "Ascolto musica o scrivo, attività che mi aiutano a esprimermi" },
-            { value: "D", text: "Dormo, in generale sto da solo per ricaricarmi" },
+            { value: "A", text: "Leggo, medito" },
+            { value: "B", text: "Esco con gli amici, faccio sport" },
+            { value: "C", text: "Ascolto musica o scrivo" },
+            { value: "D", text: "Dormo, sto da solo per ricaricarmi" },
         ],
     },
     {
@@ -35,10 +35,10 @@ const questions = [
     {
         text: "4. Quando affronti una difficoltà, qual è la tua prima reazione?",
         options: [
-            { value: "A", text: "Tendo ad analizzare la situazione e mi prendo un momento per riflettere" },
-            { value: "B", text: "Mi attivo per cercare subito una soluzione pratica e superarla" },
+            { value: "A", text: "Analizzo la situazione e rifletto" },
+            { value: "B", text: "Mi attivo per cercare subito una soluzione pratica" },
             { value: "C", text: "Mi confronto con qualcuno/a di mia fiducia" },
-            { value: "D", text: "Tendo a sentirmi sopraffatto/a e ho bisogno di un attimo per mettere in ordine le idee" },
+            { value: "D", text: "Mi sento sopraffatto/a e ho bisogno di mettere in ordine le idee" },
         ],
     },
     {
@@ -95,7 +95,7 @@ const results = {
     D: {
         color: "Arancione",
         title: "Arancione (Il Pensieroso)",
-        description: "Sei spesso sopraffatto dallo stress, ma hai una grande capacità di introspezione. La tua mente attiva ti permette di analizzare le situazioni in profondità e di trovare soluzioni creative ai problemi più complessi.",
+        description: "Sei spesso sopraffatto dai pensieri, ma hai una grande capacità di introspezione. La tua mente attiva ti permette di analizzare le situazioni in profondità e di trovare soluzioni creative ai problemi più complessi.",
         traits: "Analitico, Introspettivo, Pensieroso, Creativo, Profondo",
         css: "arancione"
     }
